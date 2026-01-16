@@ -1,0 +1,48 @@
+site_name: Nth-to-Default Basket CDS
+site_description: Correlated kth-to-default basket CDS valuation and risk-capital analytics (Python)
+repo_url: https://github.com/<username>/<repo>
+repo_name: <username>/<repo>
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Theory:
+      - Intensity calibration: intensity.md
+      - Copulas and dependence: copula.md
+      - Kth-to-default valuation: valuation.md
+  - Risk capital:
+      - Capital framing: risk-capital.md
+      - Stress design and sensitivities: stress.md
+  - Implementation:
+      - Python module map: implementation.md
+      - Reproducibility and governance: governance.md
+  - References: references.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/extra.css

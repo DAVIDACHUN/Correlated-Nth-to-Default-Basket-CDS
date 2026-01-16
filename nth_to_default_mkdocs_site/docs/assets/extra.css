@@ -1,0 +1,4 @@
+.md-typeset h1 { font-weight: 700; }
+.md-typeset h2 { font-weight: 600; }
+.md-typeset .admonition { border-radius: 10px; }
+.md-typeset code { font-size: 0.95em; }
